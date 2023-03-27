@@ -1,0 +1,31 @@
+{
+  "name": "dcc-the-lightning-lords-lament",
+  "version": "1.0.0",
+  "description": "The Lightning Lord's Lament for FoundryVTT",
+  "scripts": {
+    "format": "standard --fix",
+    "compact": "node scripts/compact.js",
+    "compile": "node scripts/compileJournals.mjs",
+    "scss": "node-sass styles/dcc-module.scss styles/dcc-module.css",
+    "update-tokens": "node --unhandled-rejections=strict scripts/updateTokens.js",
+    "validate-journal-notes": "node --unhandled-rejections=strict scripts/validateJournalNotes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyface/dcc-the-lightning-lords-lament.git"
+  },
+  "author": "Tim White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyface/dcc-the-lightning-lords-lament/issues"
+  },
+  "homepage": "https://github.com/cfyace/dcc-the-lightning-lords-lament#readme",
+  "module": "scripts/main.js",
+  "devDependencies": {
+    "deepcopy": "^2.1.0",
+    "nedb": "^1.8.0",
+    "node-sass": "^6.0.1",
+    "slugify": "^1.6.5",
+    "standard": "^16.0.3"
+  }
+}

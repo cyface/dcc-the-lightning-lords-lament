@@ -1,0 +1,37 @@
+/* ----------------------------------------- */
+/*  Welcome Dialog styles                    */
+/* ----------------------------------------- */
+
+#dcc-the-emerald-enchanter-welcome-dialog {
+  h1 {
+    font-family: "DuvallSmallCaps", "Palatino Linotype", serif;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  div.credits {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  div.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    img.dcc-logo {
+      border: 0;
+    }
+  }
+  
+  div.dcc-copyright {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

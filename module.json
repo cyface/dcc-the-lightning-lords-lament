@@ -1,0 +1,66 @@
+{
+  "id": "dcc-the-lightning-lords-lament",
+  "name": "dcc-the-lightning-lords-lament",
+  "title": "The Lightning Lord's Lament",
+  "description": "The Lightning Lord's Lament for FoundryVTT",
+  "authors": [
+    {
+      "name": "Tim L. White",
+      "url": "https://discord.gg/2PR9YH9",
+      "flags": {}
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Steve Barnett"
+    },
+    {
+      "name": "Christian Ovsenik"
+    },
+    {
+      "name": "Tim L. White"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "esmodules": [
+    "module/dccModule.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "styles": [
+    "styles/dcc-module.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/cyface/dcc-the-lighting-lords-lament/main/v0.0.1/module.json",
+  "protected": false,
+  "packs": [
+    {
+      "name": "dcc-the-lightning-lords-lament-adventure",
+      "label": "The Lightning Lord's Lament Adventure",
+      "system": "dcc",
+      "module": "dcc-the-lightning-lords-lamentr",
+      "path": "packs/dcc-the-lightning-lords-lament-adventure.db",
+      "type": "Adventure"
+    }
+  ]
+}

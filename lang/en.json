@@ -1,0 +1,47 @@
+{
+  "DCC": {
+    "TheLightningLordsLament": {
+      "Settings": {
+        "ShowWelcomeDialog": "Show Welcome Dialog on Startup",
+        "ShowWelcomeDialogHint": "Show the welcome dialog on module startup"
+      },
+      "Welcome": {
+        "Title": "The Lightning Lord's Lament",
+        "Heading": "Welcome to The Lightning Lord's Lament for Foundry VTT!",
+        "Info": "<p>To get started, use the 'Import Content' button at the bottom of this dialog to import The Lightning Lord's Lament Compendia into your world.  You only need to do this once.</p>",
+        "Credits": "<h2>Credits</h2><p>Foundry VTT conversion by Tim L. White.</p><p>See the Credits journal entry for other credits.</p>",
+        "Copyright": "<h2>License and Copyright Information</h2><p>This module is not free and cannot be redistributed or used without a specific software license key for this module.</p><br/><p>The content of this Foundry VTT module and DCC RPG are © 2012 Goodman Games.</p><p>Dungeon Crawl Classics is a trademark of Goodman Games.</p><p>DCC RPG is published under the Open Game License, refer to the License and Copyright journal entry for additional information.</p><p>Foundry Virtual Tabletop © 2019, Foundry Gaming LLC.</p>",
+        "ImportContentLabel": "Import Content",
+        "DoNotShow": "Do not show this message on startup",
+        "DoNotShowHint": "Do not show this welcome dialog again until it is re-enabled in the Module Settings dialog.",
+        "SubmitLabel": "Close",
+        "LogoAlt": "DCC RPG Logo"
+      },
+      "ContentImporter": {
+        "Title": "Import Module Content",
+        "Heading": "Import Module Content",
+        "Info": "<p>Use the checkboxes below to select content to import into your world. The defaults are our recommended content to import.</p><p>Imported content will be placed into folders to minimise clutter.</p><p>All Module Content is always available from the <i class='fas fa-atlas'>&nbsp;</i>Compendium Packs tab while this module is loaded regardless of what is imported into the world.</p>",
+        "ImportContent": "Import Content",
+        "CheckAll": "Check All",
+        "UncheckAll": "Uncheck All",
+        "Entities": {
+          "Actors": "Actors",
+          "Items": "Items",
+          "Journals": "Journals",
+          "RollTables": "RollTables",
+          "Scenes": "Scenes"
+        },
+        "Packs": {
+          "dcc-the-lightning-lords-lament": {
+            "dcc-the-lightning-lords-lament-actors": "NPCs and Monsters",
+            "dcc-the-lightning-lords-lament-characters": "Pre-Generated Characters",
+            "dcc-the-lightning-lords-lament-items": "Treasure and Items",
+            "dcc-the-lightning-lords-lament-handouts": "Handouts",
+            "dcc-the-lightning-lords-lament-text": "Adventure Text",
+            "dcc-the-lightning-lords-lament-scenes": "Scenes and Maps"
+          }
+        }
+      }
+    }
+  }
+}

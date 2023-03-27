@@ -1,0 +1,27 @@
+/* ----------------------------------------- */
+/*  Welcome Dialog styles                    */
+/* ----------------------------------------- */
+#dcc-the-lightning-lords-lament-welcome-dialog h1 {
+  font-family: "DuvallSmallCaps", "Palatino Linotype", serif; }
+
+#dcc-the-lightning-lords-lament-welcome-dialog form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+#dcc-the-lightning-lords-lament-welcome-dialog div.credits {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+#dcc-the-lightning-lords-lament-welcome-dialog div.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  #dcc-the-lightning-lords-lament-welcome-dialog div.logo-container img.dcc-logo {
+    border: 0; }
+
+#dcc-the-lightning-lords-lament-welcome-dialog div.dcc-copyright {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }

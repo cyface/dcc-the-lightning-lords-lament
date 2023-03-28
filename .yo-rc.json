@@ -1,0 +1,16 @@
+{
+  "generator-dcc-module": {
+    "promptValues": {
+      "moduleName": "dcc-jewels-of-the-carnifex",
+      "localizationNamespace": "JewelsOfTheCarnifex",
+      "prettyName": "DCC #70: Jewels of the Carnifex",
+      "description": "At the end of a forgotten back alley, in the weird and otherworldly marketplace of faiths known as the Bazaar of the Gods, stands the ruins of a forgotten chapel. Once the cult of the Carnifex was celebrated throughout the City of a Thousand Gates. But a band of holy warriors rose against the cult of executioners and torturers, casting down her signs and scattering her devotees to the winds. The fate of the cthonic goddess, and – more importantly – her fabled jewels remains a mystery…until this night.",
+      "originalAuthor": "Harley Stroh",
+      "version": "0.0.1",
+      "minimumCoreVersion": "0.8.9",
+      "compatibleCoreVersion": "9",
+      "packPrefix": "dcc-jewels-of-the-carnifex",
+      "folderColor": "#000000"
+    }
+  }
+}
